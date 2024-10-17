@@ -126,7 +126,7 @@ public class homeScreen extends javax.swing.JFrame {
                 JOptionPane.QUESTION_MESSAGE,
                 null,
                 options,
-                options[0]);  // La opción predeterminada
+                options[0]); 
 
         // Procesar la opción seleccionada
         if (option == 0) {
