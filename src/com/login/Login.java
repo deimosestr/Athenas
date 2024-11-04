@@ -452,7 +452,7 @@ public class Login extends javax.swing.JFrame {
             if (rs.next()) {
                 JOptionPane.showMessageDialog(this, "Login exitoso");
                 // Abrir la nueva ventana después de un login exitoso
-                homeScreen mainFrame = new homeScreen();
+                menuw8 mainFrame = new menuw8();
                 mainFrame.setVisible(true);
                 this.dispose(); // Cerrar la ventana de login actual
             } else {

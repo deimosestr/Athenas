@@ -60,26 +60,29 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                       <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="buttons8" pref="0" max="32767" attributes="0"/>
-                              <Component id="buttons3" max="32767" attributes="0"/>
+                              <Component id="organizacion" pref="0" max="32767" attributes="0"/>
+                              <Component id="seguridad" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="buttons7" min="-2" pref="102" max="-2" attributes="0"/>
+                                  <Component id="capacitacion" min="-2" pref="102" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="buttons5" min="-2" pref="101" max="-2" attributes="0"/>
+                                  <Component id="acerca" min="-2" pref="101" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="buttons4" min="-2" pref="217" max="-2" attributes="0"/>
+                              <Component id="salud" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="88" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -88,18 +91,18 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="buttons4" max="32767" attributes="0"/>
-                      <Component id="buttons3" max="32767" attributes="0"/>
+                      <Component id="salud" max="32767" attributes="0"/>
+                      <Component id="seguridad" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="buttons8" pref="103" max="32767" attributes="0"/>
-                      <Component id="buttons7" alignment="0" max="32767" attributes="0"/>
-                      <Component id="buttons5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="organizacion" max="32767" attributes="0"/>
+                      <Component id="capacitacion" alignment="0" max="32767" attributes="0"/>
+                      <Component id="acerca" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="107" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -116,7 +119,7 @@
             <Property name="text" type="java.lang.String" value="Inicio"/>
           </Properties>
         </Component>
-        <Component class="com.login.buttons" name="buttons3">
+        <Component class="com.login.buttons" name="seguridad">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/com/imagenes/seguridad.png"/>
@@ -130,10 +133,10 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttons3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seguridadActionPerformed"/>
           </Events>
         </Component>
-        <Component class="com.login.buttons" name="buttons4">
+        <Component class="com.login.buttons" name="salud">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/com/imagenes/salud.png"/>
@@ -147,10 +150,10 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttons4ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saludActionPerformed"/>
           </Events>
         </Component>
-        <Component class="com.login.buttons" name="buttons5">
+        <Component class="com.login.buttons" name="acerca">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/com/imagenes/acerca de.png"/>
@@ -164,10 +167,10 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttons5ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="acercaActionPerformed"/>
           </Events>
         </Component>
-        <Component class="com.login.buttons" name="buttons7">
+        <Component class="com.login.buttons" name="capacitacion">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/com/imagenes/capa.png"/>
@@ -181,10 +184,10 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttons7ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="capacitacionActionPerformed"/>
           </Events>
         </Component>
-        <Component class="com.login.buttons" name="buttons8">
+        <Component class="com.login.buttons" name="organizacion">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/com/imagenes/organizacion.png"/>
@@ -198,7 +201,7 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttons8ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="organizacionActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

@@ -49,11 +49,11 @@ jPanel1.setOpaque(false);
         jLabel8 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        buttons3 = new com.login.buttons();
-        buttons4 = new com.login.buttons();
-        buttons5 = new com.login.buttons();
-        buttons7 = new com.login.buttons();
-        buttons8 = new com.login.buttons();
+        seguridad = new com.login.buttons();
+        salud = new com.login.buttons();
+        acerca = new com.login.buttons();
+        capacitacion = new com.login.buttons();
+        organizacion = new com.login.buttons();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(550, 305));
@@ -70,63 +70,63 @@ jPanel1.setOpaque(false);
         jLabel7.setForeground(new java.awt.Color(51, 51, 51));
         jLabel7.setText("Inicio");
 
-        buttons3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/seguridad.png"))); // NOI18N
-        buttons3.setText("Seguridad");
-        buttons3.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        buttons3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buttons3.setRadius(20);
-        buttons3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        buttons3.addActionListener(new java.awt.event.ActionListener() {
+        seguridad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/seguridad.png"))); // NOI18N
+        seguridad.setText("Seguridad");
+        seguridad.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
+        seguridad.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        seguridad.setRadius(20);
+        seguridad.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        seguridad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttons3ActionPerformed(evt);
+                seguridadActionPerformed(evt);
             }
         });
 
-        buttons4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/salud.png"))); // NOI18N
-        buttons4.setText("Salud");
-        buttons4.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        buttons4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buttons4.setRadius(20);
-        buttons4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        buttons4.addActionListener(new java.awt.event.ActionListener() {
+        salud.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/salud.png"))); // NOI18N
+        salud.setText("Salud");
+        salud.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
+        salud.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        salud.setRadius(20);
+        salud.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        salud.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttons4ActionPerformed(evt);
+                saludActionPerformed(evt);
             }
         });
 
-        buttons5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/acerca de.png"))); // NOI18N
-        buttons5.setText("Acerca de");
-        buttons5.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        buttons5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buttons5.setRadius(20);
-        buttons5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        buttons5.addActionListener(new java.awt.event.ActionListener() {
+        acerca.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/acerca de.png"))); // NOI18N
+        acerca.setText("Acerca de");
+        acerca.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
+        acerca.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        acerca.setRadius(20);
+        acerca.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        acerca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttons5ActionPerformed(evt);
+                acercaActionPerformed(evt);
             }
         });
 
-        buttons7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/capa.png"))); // NOI18N
-        buttons7.setText("Capacitacion");
-        buttons7.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        buttons7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buttons7.setRadius(20);
-        buttons7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        buttons7.addActionListener(new java.awt.event.ActionListener() {
+        capacitacion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/capa.png"))); // NOI18N
+        capacitacion.setText("Capacitacion");
+        capacitacion.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
+        capacitacion.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        capacitacion.setRadius(20);
+        capacitacion.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        capacitacion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttons7ActionPerformed(evt);
+                capacitacionActionPerformed(evt);
             }
         });
 
-        buttons8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/organizacion.png"))); // NOI18N
-        buttons8.setText("Organizacion");
-        buttons8.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        buttons8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buttons8.setRadius(20);
-        buttons8.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        buttons8.addActionListener(new java.awt.event.ActionListener() {
+        organizacion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/organizacion.png"))); // NOI18N
+        organizacion.setText("Organizacion");
+        organizacion.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
+        organizacion.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        organizacion.setRadius(20);
+        organizacion.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        organizacion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttons8ActionPerformed(evt);
+                organizacionActionPerformed(evt);
             }
         });
 
@@ -135,37 +135,39 @@ jPanel1.setOpaque(false);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel7)
                     .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel7))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(67, 67, 67)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(buttons8, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                            .addComponent(buttons3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(organizacion, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addComponent(seguridad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(buttons7, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(capacitacion, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(buttons5, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(buttons4, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(acerca, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(salud, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addContainerGap(88, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel7)
-                .addGap(88, 88, 88)
+                .addGap(79, 79, 79)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(buttons4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttons3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(salud, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(seguridad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(buttons8, javax.swing.GroupLayout.PREFERRED_SIZE, 103, Short.MAX_VALUE)
-                    .addComponent(buttons7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttons5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(organizacion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(capacitacion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(acerca, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 107, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, 420));
@@ -173,25 +175,27 @@ jPanel1.setOpaque(false);
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void buttons5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttons5ActionPerformed
+    private void acercaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_acercaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_buttons5ActionPerformed
+    }//GEN-LAST:event_acercaActionPerformed
 
-    private void buttons3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttons3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_buttons3ActionPerformed
+    private void seguridadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_seguridadActionPerformed
+                homeScreen mainFrame = new homeScreen();
+                mainFrame.setVisible(true);
+                this.dispose(); // Cerrar la ventana de login actual
+    }//GEN-LAST:event_seguridadActionPerformed
 
-    private void buttons4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttons4ActionPerformed
+    private void saludActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saludActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_buttons4ActionPerformed
+    }//GEN-LAST:event_saludActionPerformed
 
-    private void buttons7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttons7ActionPerformed
+    private void capacitacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_capacitacionActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_buttons7ActionPerformed
+    }//GEN-LAST:event_capacitacionActionPerformed
 
-    private void buttons8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttons8ActionPerformed
+    private void organizacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_organizacionActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_buttons8ActionPerformed
+    }//GEN-LAST:event_organizacionActionPerformed
 
     /**
      * @param args the command line arguments
@@ -229,14 +233,14 @@ jPanel1.setOpaque(false);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.login.buttons buttons3;
-    private com.login.buttons buttons4;
-    private com.login.buttons buttons5;
-    private com.login.buttons buttons7;
-    private com.login.buttons buttons8;
+    private com.login.buttons acerca;
+    private com.login.buttons capacitacion;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
+    private com.login.buttons organizacion;
+    private com.login.buttons salud;
+    private com.login.buttons seguridad;
     // End of variables declaration//GEN-END:variables
     class FondoPanel extends JPanel{
     private Image imagen;
